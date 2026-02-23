@@ -1,14 +1,6 @@
-:root{
-  --text:#333;
-  --muted:#888;
-
-  --navW: 280px;
-  --radius: 14px;
-  --shadow: 0 16px 50px rgba(0,0,0,0.45);
-}
-
 html{ scroll-behavior:smooth; }
 
+/* install fonts */
 @font-face {
   font-family: Helvetica Neue;
   src: url(HelveticaNeueRoman.otf);
@@ -20,16 +12,18 @@ html{ scroll-behavior:smooth; }
   font-weight: 500;
 }
 
+/* taken from chrome: https://developer.chrome.com/docs/web-platform/view-transitions/ */
 @view-transition {
   navigation: auto;
 }
 
+/* general styling */
 body {
   margin: 20px;
   background: #f7f7f7;
 
   font-family: Helvetica Neue;
-  color: var(--text);
+  color: #333;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -40,7 +34,7 @@ img {
 
 a {
   text-decoration: none;
-  color: var(--text);
+  color: #333;
 }
 
 p, li {
@@ -111,9 +105,10 @@ p, li {
 }
 
 .footer a:hover, .toc a:hover {
-  color: var(--muted);
+  color: #888;
 }
 
+/* home page */
 .hero {
   max-width: 1200px;
   margin: 80px auto;
@@ -180,6 +175,7 @@ p, li {
   margin-bottom: 80px;
 }
 
+/* projects page */
 .project-section {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
@@ -248,7 +244,7 @@ p, li {
 }
 
 .eyebrow {
-  color: var(--muted);
+  color: #888;
   font-size: 12px;
 
   margin-bottom: 8px;
@@ -262,7 +258,7 @@ p, li {
 
 .caption {
   text-align: center;
-  color: var(--muted);
+  color: #888;
   font-size: 12px;
 
   display: block;  
@@ -277,6 +273,7 @@ p, li {
   font-weight: 300;
 }
 
+/* about page */
 .about-section {
   margin: 40px auto 0;
   padding: 12px;
