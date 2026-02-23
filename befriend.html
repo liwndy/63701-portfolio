@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wendy Li / BeFriend</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+      <a href="index.html">Wendy Li</a>
+      <div class="nav-links">
+        <a href="index.html">Works</a>
+        <a href="about.html">About</a>
+      </div>
+
+      <div class="right-nav">
+        <a href="index.html" class="contact"><img src="mail.svg"></a>
+      </div>
+    </nav>
+  <div class="project-section">
+    <div class="toc">
+      <div>Contents</div>
+      <a href="#opportunity">Opportunity</a>
+      <a href="#ideation">Ideation</a>
+      <a href="#solution">Our Solution</a>
+      <a href="#reflection">Reflection</a>
+    </div>
+
+    <div class="project-container">
+      <img src="assets/befriend-full.png">
+      <h1>BeFriend, for Understanding Your Relationships</h1>
+      <p>Building and maintaining relationships is one of the most meaningful (and messiest) parts of being human. AI, on the other hand, is structured, logical, and not human at all. But what if we could use its clarity to better navigate our own emotional complexity? befriend does exactly this: an AI-powered relationship companion that learns from your interactions, understands your relational patterns, and supports the very human connections that matter most.</p>
+
+      <div class="two-grid top-40">
+        <div>
+          <div class="eyebrow">My Role</div>
+          <div>Product Designer</div>
+        </div>
+        <div>
+          <div class="eyebrow">The Team</div>
+          <div>2 Product Designers</div>
+        </div>
+        <div>
+          <div class="eyebrow">Timeline</div>
+          <div>10 Weeks / September to December 2025</div>
+        </div>
+        <div>
+          <div class="eyebrow">Skills</div>
+          <div class="hflex">
+            <div class="tag">Product Design</div>
+            <div class="tag">Design with AI</div>
+            <div class="tag">User Research</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border"></div>
+
+      <div id="opportunity" class="eyebrow">Opportunity</div>
+      <h2>Understanding modern relationship challenges.</h2>
+
+      <p>To learn about how people navigate relationships today, we conducted:</p>
+
+      <ul>
+          <li>Desk research: exploring the current use of AI tools in personal relationships and communication.</li>
+
+          <li>User interviews (1:1): speaking with individuals across dating, friendships, and situationships to uncover real emotional pain points.</li>
+      </ul>
+
+      <p>From our research insights, we built an interactive persona, Esther, which you can access here. Although our target audience primarily falls within the Gen Z and Generational Alpha age groups, we recognized that our app has the potential to support anyone seeking to improve their relationships through AI.</p>
+
+      <img src="assets/befriend-persona.png">
+      <a class="caption bot-40" href="https://gemini.google.com/gem/aeaada0f1c85">Try out our interactive persona here!</a>
+      
+      <p>The Esther persona reflects common Gen Z behaviors, and her challenges illustrate a broader need for emotional clarity and personalized support in both digital and in-person communication, the core problem our solution aims to address.</p>
+
+      <p>Our problem statement was thus formed:</p>
+
+      <div class="callout">How might we use AI to help people navigate their real-life relationships?</div>
+
+      <div class="border"></div>
+
+      <div id="ideation" class="eyebrow">Ideation</div>
+      <h2>Exploring how AI could support relationships</h2>
+
+      <p>After understanding the emotional gaps in digital communication, we began exploring how an AI tool could meaningfully support users like Esther. Through this, we now had a foundation for the features on our app’s home page, what the relationship page could look like, and more.</p>
+
+      <img src="assets/befriend-lowfi.png">
+      <div class="caption bot-80">Workshopping the idea of BeFriend</div>
+
+      <h2>Bringing Structure to Emotion</h2>
+
+      <p>When we prototyped BeFriend, we knew that supporting real human relationships required more than just AI. So we grounded the prototype in three core principles:</p>
+
+      <div class="callout">1) Privacy & emotional safety first<br/>2) Advice that adapts<br/>3) AI supports, never replaces.</div>
+
+
+      <div class="border"></div>
+
+      <div id="solution" class="eyebrow">Our Solution</div>
+      <h2>BeFriend: Better connections start here</h2>
+
+      <p>Befriend’s onboarding begins with the standard setup you’d expect , such as name, email, and basic account creation. We kept this portion lightweight to reduce friction and get users into the experience quickly.</p>
+
+      <img src="assets/befriend-onboarding.png">
+      <div class="caption bot-80">We kept onboarding lightweight to reduce friction and get users into the experience quickly.</div>
+
+      <p>After onboarding, users are guided to add their first relationship, which is the core action that shapes the entire befriend experience. To avoid overwhelming users, context input is optional but encouraged, such as their interests, shared history, etc.</p>
+
+      <img src="assets/befriend-add.png">
+      <div class="caption bot-80">Adding relationships onto BeFriend.</div>
+
+      <p>The chat interface is the heart of BeFriend. It’s where users come to understand their relationships, process emotions, decode messages, and get guidance based on real context. Early testers often assumed the chat might message the actual person, so clarity became a central design priority.</p>
+
+      <img src="assets/befriend-chat.png">
+      <div class="caption bot-80">“You’re chatting with BeFriend. Ask anything about your relationship, messages, or how to communicate better.”</div>
+
+      <p>As the relationship evolves, so does the chat. At day 1, BeFriend guesses what the user might be interested in conversing about based on their initial inputs. By day 7, BeFriend notices patterns in the relationship between the user and their relation. By day 30, it anticipates user needs and offers more personalized advice. And by month 6, it reflects the entire relationship arc with real perspective.</p>
+
+      <img src="assets/befriend-grow.png">
+      <div class="caption">For various relationships, built across scenarios.</div>
+
+      <div class="border"></div>
+
+      <div id="reflection" class="eyebrow">Reflection</div>
+      <h2>Designing tech for something deeply human</h2>
+
+      <p>Working on befriend made us realize just how much space there is for technology to support our emotional lives. When designed with intention, it can actually help us navigate some of the most human experiences we have, and we learned how something inherently technical can become softer through thoughtful design choices: tone, visual language, explainability, and the gentle pacing of interactions.</p>
+
+      <p>More importantly, befriend taught us how design can bridge the gap between machine intelligence and human complexity. The goal was never to have AI speak for us, but to help us understand ourselves and others better. In the end, this project reminded me that technology doesn’t have to strip away humanity. With care, it can amplify it, helping people show up in their relationships with more confidence, compassion, and intention.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="nav-links">
+      <a href="mailto:liwndy@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/wantongl/">LinkedIn</a>
+    </div>
+
+    <div>© Wendy Li</div>
+  </div>
+</body>
+
+</html>
